@@ -1,1 +1,1 @@
-print("This is where I do my work~")
+print("This is where I do my work!")
