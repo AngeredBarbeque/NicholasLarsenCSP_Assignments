@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 int main(void){
-    int equation[30];
-    equation = 7-24/8*4+6;
-    printf("%ls", equation);
+    float equation[30];
+    printf("%f", equation);
     return 0;
 }
