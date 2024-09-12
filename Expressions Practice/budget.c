@@ -9,10 +9,12 @@ int main(void){
     scanf("%s", income);
     printf("How much do you spend on utilities a month?\n");
     scanf("%s", utilities);
-    printf("How much do you spend on groceries a month?\n");
-    scanf("%s", groceries);
-    printf("How much do you spend on transportation a month?\n");
-    scanf("%s", transportation);
+    //printf("How much do you spend on groceries a month?\n");
+    //scanf("%s", groceries);
+    //printf("How much do you spend on transportation a month?\n");
+    //scanf("%s", transportation);
     printf("You make %s\n", income);
+    float spend[] = (float) income - (float) utilities;
+    printf("%f", spend);
     return 0;
 }
