@@ -1,7 +1,7 @@
 #include <stdio.h>
 float income, rent, utilities, groceries, transportation, savings, expenses, spend;
 void percent(char type[], int amount){
-    int per = amount/income*100;
+    int per = (amount/income)*100;
     printf("Your %s is %d%% percent of your income.\n", type, per);
 }
 
@@ -35,6 +35,6 @@ int main(void){
     percent("transportation", transportation);
     percent("savings", savings);
     percent("expenses", expenses);
-    percent("spend", spend);
+    percent("spending money", spend);
     return 0;
 }
