@@ -3,16 +3,21 @@ def percent(amount):
     per = amount/income*100
     return per
 
+def inputing(strtype):
+    type = int(input("How much is your " + strtype + " per month?"))
+    return type
 
-income = int(input("This is a financial calculator. What is your monthly income?: "))
+print("This is a financial calulator.")
 
-rent = int(input("How much does your rent cost per month?: "))
+income = inputing("income")
 
-utilities = int(input("How much are your utilites per month?: "))
+rent = inputing("rent")
 
-groceries = int(input("How much do you spend on groceries per month?: "))
+utilities = inputing("utilities")
 
-transportation = int(input("How much do you spend on transportation per month?: "))
+groceries = inputing("groceries")
+
+transportation = inputing("transportation")
 
 savings = float(income)*0.2
 
