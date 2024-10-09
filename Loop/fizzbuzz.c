@@ -13,7 +13,7 @@ int main(void){
             printf("Buzz\n");
         }
         else{
-            printf(i);
+            printf("%d\n", i);
         }
     }
     return 0;
